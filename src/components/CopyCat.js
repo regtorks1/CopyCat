@@ -2,6 +2,7 @@ import React from 'react';
 import {styles} from '../styles'
 import PropTypes from 'prop-types';
 
+
 const images = {
   copycat: 'https://content.codecademy.com/courses/React/react_photo_copycat.png',
   quietcat: 'https://content.codecademy.com/courses/React/react_photo_quietcat.png'
@@ -10,7 +11,7 @@ const images = {
 
  export class CopyCat extends React.Component {
   render() {
-   const {copying, toggleTape, value, handleChange, name} = this.props;
+   const {copying, toggleTape, value, handleChange} = this.props;
     
     return (
       <div style = {styles.divStyles}>
